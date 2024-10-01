@@ -1,0 +1,26 @@
+/* 
+1 ids, --- #nav
+2 classes/pseudo-classes/attributeselectors, --- .pull-right, .button
+2 elements/pseudo-elements --- div, a
+ */
+ #nav div.pull-right a.button {
+    background-color: orangered;
+}
+
+/* 
+1 ids, --- #nav
+3 classes/pseudo-classes/attributeselectors, --- .pull-right, .button, :hover
+2 elements/pseudo-elements --- div, a
+ */
+#nav div.pull-right a.button:hover {
+    background-color: green;
+}
+
+/* 
+1 ids, --- #nav
+2 classes/pseudo-classes/attributeselectors, --- .button, :hover
+1 elements/pseudo-elements button --- a
+ */
+#nav a.button:hover {
+    background-color: yellow;
+}
